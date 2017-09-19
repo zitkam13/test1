@@ -10,7 +10,8 @@ Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
 * GIT ![GitHub Logo](/index.png)  
 * GitHub  
 * Markdown  
-  [Mastring Markdown](https://guides.github.com/features/mastering-markdown/)
+  [Mastring Markdown](https://guides.github.com/features/mastering-markdown/)  
+* Branches
   
  ~~~C  
  #include <stdio.h>  
