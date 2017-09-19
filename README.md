@@ -12,15 +12,15 @@ Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
 * Markdown  
   [Mastring Markdown](https://guides.github.com/features/mastering-markdown/)
   
- ~C  
- #include <stdio.h>
- int main()
+ ~~~C  
+ #include <stdio.h>  
+ int main()  
  {
  
    printf("Hallo");
-   return 0;
+   return 0;  
  
- }
- ~
+ }  
+ ~~~
  
  
