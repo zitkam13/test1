@@ -6,8 +6,8 @@
 Anwesend sind:  
 Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
 
-**Thema:**  
-* GIT  
+**Thema:** 
+* GIT ![GitHub Logo](/logo.png)  
 * GitHub  
 * Markdown  
   [Mastring Markdown](https://guides.github.com/features/mastering-markdown/)
