@@ -5,3 +5,22 @@
 
 Anwesend sind:  
 Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
+
+**Thema:**  
+* GIT  
+* GitHub  
+* Markdown  
+  [Mastring Markdown](https://guides.github.com/features/mastering-markdown/)
+  
+ ~C  
+ #include <stdio.h>
+ int main()
+ {
+ 
+   printf("Hallo");
+   return 0;
+ 
+ }
+ ~
+ 
+ 
