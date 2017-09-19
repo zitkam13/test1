@@ -3,4 +3,5 @@
 ## Laboreinheit 19.9.2017
 
 
-Anwesend sind: Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
+Anwesend sind:  
+Strauß, Strutz, Tuttner, Uhl, Waltl, Wieser, Zitz
