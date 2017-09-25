@@ -36,10 +36,10 @@ git
 
 ### wichtige Befehle Markdown  
 * "#" = 1.Überschrift, "##" 2.Überschrift, "###" 3.Überschrift.....  
-* '**....**'     = Fett  
+* '* * .... * *'     = Fett  (kein Leerzeichen zwischen den Sternen) 
 * '_....._'      = Kursiv  
 * '*'            = Liste  
-* [Name](Link)) = Link einfügen   
+* [Name] (Link) = Link einfügen  (kein Leerzeichen zwischen den Klammern) 
 * '![Name](Speicherort des  Bildes)' = Bild einfügen
 
 Weitere Befehle können unter dem [Link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) nachgelesen werden.  
