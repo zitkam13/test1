@@ -1,6 +1,6 @@
 
 # KW38  
-## Thema: GitHub  
+## Thema: Git 
 
 Name: Karlheinz Zitz  
 
@@ -15,12 +15,16 @@ Git ist mittlerweile schon ein Standardtool für die Versionsverwaltung.
 
 Eine **Versonverwaltung** wird für die Erfassung von Änderungen bei Projekten verwendet.  
 Alle Versionen werden in einen Archiv gespeichert.  
-Wenn  sich in einer neuen Version Fehl er befinden kann man danach auch auf eine ältere Version zurückgreifen.  
+Wenn  sich in einer neuen Version Fehler befinden kann man danach auch auf eine ältere Version zurückgreifen.  
 
 ### GitHub  
 **GitHub** ist eine Online-Dienst für Versionsverwaltung dieser auf **Git** basiert.  
 Da GitHub eine Open-Source Software ist kann jeder auf öffetliche Repositories zugreifen.  
-Dieses kann man vermeiden wenn man private Repositories erstellt. Dieses funktioniert aber nur wenn man 7$ im Monat bezahlt.    
+Dieses kann man vermeiden wenn man private Repositories erstellt. Dieses funktioniert aber nur wenn man 7$ im Monat bezahlt.  
+
+### Branches  
+Repositories können in Branches unterteilt werden, damit eine stabile Version immer erhaten bleibt, wenn man daran arbeitet. Daher sollte sich die stabile Version immer im Master branch befinden. 
+
 
 ### Befehle bei Git  
 git  
@@ -40,5 +44,3 @@ git
 
 Weitere Befehle können unter dem [Link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) nachgelesen werden.  
 
-### Branches  
-Repositories können in Branches unterteilt werden, damit eine stabile Version immer erhaten bleibt, wenn man daran arbeitet. Dabei gibt es immer ein Master branch.
