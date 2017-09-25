@@ -22,7 +22,7 @@ Da GitHub eine Open-Source Software ist kann jeder auf öffetliche Repositories 
 Dieses kann man vermeiden wenn man private Repositories erstellt. Dieses funktioniert aber nur wenn man 7$ im Monat bezahlt.  
 
 ### Branches  
-Repositories können in **Branches** unterteilt werden, damit eine stabile Version immer erhaten bleibt, wenn man daran arbeitet. Daher sollte sich die stabile Version immer im Master branch befinden. 
+Repositories können in **Branches (Verzweigungen)** unterteilt werden, damit eine stabile Version immer erhaten bleibt, wenn man daran arbeitet. Daher sollte sich die stabile Version immer im Master branch befinden. 
 
 
 ### Befehle bei Git  
