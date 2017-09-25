@@ -3,8 +3,7 @@
 ## Thema: GitHub  
 
 Name: Karlheinz Zitz  
-Klasse 4AHME  
-Datum: 19.9.2017/KW38
+
 
 ### Git
 Git ist eine kostelnlose Software für die Versionsverwaltung von Dateiein.  
@@ -23,18 +22,23 @@ Wenn  sich in einer neuen Version Fehl er befinden kann man danach auch auf eine
 Da GitHub eine Open-Source Software ist kann jeder auf öffetliche Repositories zugreifen.  
 Dieses kann man vermeiden wenn man private Repositories erstellt. Dieses funktioniert aber nur wenn man 7$ im Monat bezahlt.    
 
-### wichtige Befehle bei Git  
-
+### Befehle bei Git  
+git  
 * clone  = Repository wird verdoppelt (geklont)  
 * pull   = Änderungen werden vom Server geholt  
 * push   = Änderungen werden vom lokalen Repository auf dem Server gespielt  
 * add    = Daten werden von der Workspace auf Index gespielt  
-* commit = Daten werden vom Index auf den lokalen Repository gespielt  
+* commit = Daten werden vom Index auf den lokalen Repository gespielt
+* status = zeigt alle Änderungen an 
 
 ### wichtige Befehle Markdown  
 * "#" = 1.Überschrift, "##" 2.Überschrift, "###" 3.Überschrift.....  
-* "**....**"     = Fett  
-* "_....._"      = Kursiv  
-* "*"            = Liste  
-* "[Name](Link)" = Link einfügen  
-* 
+* '**....**'     = Fett  
+* '_....._'      = Kursiv  
+* '*'            = Liste  
+* '[Name](Link)' = Link einfügen    
+
+Weitere Befehle können unter dem [Link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) nachgelesen werden.  
+
+### Branches  
+Repositories können in Branches unterteilt werden, damit eine stabile Version immer erhaten bleibt, wenn man daran arbeitet. Dabei gibt es immer ein Master branch.
