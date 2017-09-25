@@ -37,7 +37,7 @@ git
 ### wichtige Befehle Markdown  
 * "#" = 1.Überschrift, "##" 2.Überschrift, "###" 3.Überschrift.....  
 * '* * .... * *'     = Fett  (kein Leerzeichen zwischen den Sternen) 
-* '_....._'      = Kursiv  
+* '* ..... *'      = Kursiv  
 * '*'            = Liste  
 * [Name] (Link) = Link einfügen  (kein Leerzeichen zwischen den Klammern) 
 * '![Name](Speicherort des  Bildes)' = Bild einfügen
