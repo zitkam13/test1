@@ -39,7 +39,7 @@ git
 * '**....**'     = Fett  
 * '_....._'      = Kursiv  
 * '*'            = Liste  
-* '[Name](Link)' = Link einfügen   
+* [Name](Link)) = Link einfügen   
 * '![Name](Speicherort des  Bildes)' = Bild einfügen
 
 Weitere Befehle können unter dem [Link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) nachgelesen werden.  
