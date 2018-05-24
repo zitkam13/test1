@@ -55,6 +55,41 @@ Damit man in Java mit einem Programm mit der Hardware kommunizieren kann benöti
   {                                                          
     new MySingleMeasurementWorker(serialPort).execute();
   }                                                     
-```
+```  
 
+#### SingleMeasurementWorker Worker-Klasse  
+Die Abfrage der GUI läuft mittels Swing Worker in einem anderen Thread  ab. In der Methode **doInBackground** wird eine Anfrage auf das SureBoard gesendet. 
   
+```java
+package workers;
+
+import javax.swing.SwingWorker;
+import jssc.SerialPort;
+
+
+public class SingleMeasurementWorker extends SwingWorker<Double, Object>
+{
+  private final jssc.SerialPort serialPort;
+
+  public SingleMeasurementWorker (SerialPort serialPort)
+  {
+    this.serialPort = serialPort;
+  }
+
+  @Override
+  protected Double doInBackground () throws Exception
+  {
+    serialPort.writeInt(2); // Geraeteadresse
+    serialPort.writeInt(4); // Funktioncode 0x04 = Read Input Register
+    serialPort.writeInt(0); // LM75A Register
+    serialPort.writeInt(0x30); // LM75A Register
+    serialPort.writeInt(1); // Anzahl der Register
+    serialPort.writeInt(0x31); // CRC Pruefsumme High-Byte
+    serialPort.writeInt(0xf6); // CRC Pruefsumme Low-Byte
+    // to do use Array to send data: serialPort.writeIntArray(buffer)
+    
+    return 23.5;
+  }
+
+}
+```
