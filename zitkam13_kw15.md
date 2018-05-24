@@ -22,4 +22,39 @@ Damit man in Java mit einem Programm mit der Hardware kommunizieren kann benöti
  
  Nach der  Wiederholung von Java programmierten wir an unserem Program für die Temperaturmessung über eine serielleSchnitstelle weiter.  
  ### Quellcodes der ausprogrammierten Teile  
- ####
+ #### MySingleMeasurementWorker  
+ Hier wird eine innere Klasse erstellt. Sie übergibt eine Attribute-Variable an die eigentliche Worker Klasse.  
+ ```java
+  {
+
+    public MySingleMeasurementWorker (SerialPort serialPort)
+    {
+      super(serialPort);
+    }
+    @Override
+    protected void done ()
+    {
+      try
+      {
+        double temp = get();
+        jlaTemperatur.setText(String.format("%.1f °C", temp));
+      }
+      catch (Exception ex)
+      {
+         showException("Schnittstelle kann nicht geöffnet werden", ex);
+      }
+    }
+ }
+  
+  ```  
+  #### jbutSingleMeasurementActionPerformed  
+   In dieser Methode wird von der Klasse **MySingleMeasurementWorker**  ein Objekt erstellt. Dies wird mittels **execute()** gemacht.  
+   
+   ```java
+  private void jbutSingleMeasurementActionPerformed(java.awt.event.ActionEvent evt)                       
+  {                                                          
+    new MySingleMeasurementWorker(serialPort).execute();
+  }                                                     
+```
+
+  
